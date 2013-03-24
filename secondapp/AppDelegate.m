@@ -12,7 +12,17 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    [_about setIsVisible:NO];
 }
 
+- (IBAction)b1:(id)sender {
+    _label.stringValue = [NSString stringWithFormat:@"YOU'RE A FUCKUS."];
+}
+- (IBAction)aboutfm:(id)sender {
+    [_about setIsVisible:YES];
+}
+
+- (IBAction)aboutclose:(id)sender {
+    [_about setIsVisible:NO];
+}   
 @end

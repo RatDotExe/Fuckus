@@ -11,5 +11,10 @@
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+@property (weak) IBOutlet NSTextField *label;
+- (IBAction)b1:(id)sender;
+@property (unsafe_unretained) IBOutlet NSWindow *about;
+- (IBAction)aboutfm:(id)sender;
+- (IBAction)aboutclose:(id)sender;
 
 @end
