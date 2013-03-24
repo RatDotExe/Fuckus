@@ -16,15 +16,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B66FBA7B16FE7515003B908F /* secondapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = secondapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66FBA7B16FE7515003B908F /* Fuckus App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fuckus App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B66FBA7E16FE7515003B908F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		B66FBA8116FE7515003B908F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		B66FBA8216FE7515003B908F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		B66FBA8316FE7515003B908F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		B66FBA8616FE7515003B908F /* secondapp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "secondapp-Info.plist"; sourceTree = "<group>"; };
+		B66FBA8616FE7515003B908F /* Fuckus App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fuckus App-Info.plist"; sourceTree = "<group>"; };
 		B66FBA8816FE7515003B908F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B66FBA8A16FE7515003B908F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B66FBA8C16FE7515003B908F /* secondapp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "secondapp-Prefix.pch"; sourceTree = "<group>"; };
+		B66FBA8C16FE7515003B908F /* Fuckus App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fuckus App-Prefix.pch"; sourceTree = "<group>"; };
 		B66FBA8E16FE7515003B908F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		B66FBA9016FE7515003B908F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B66FBA9116FE7515003B908F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		B66FBA7216FE7515003B908F = {
 			isa = PBXGroup;
 			children = (
-				B66FBA8416FE7515003B908F /* secondapp */,
+				B66FBA8416FE7515003B908F /* FuckusApp */,
 				B66FBA7D16FE7515003B908F /* Frameworks */,
 				B66FBA7C16FE7515003B908F /* Products */,
 			);
@@ -55,7 +55,7 @@
 		B66FBA7C16FE7515003B908F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B66FBA7B16FE7515003B908F /* secondapp.app */,
+				B66FBA7B16FE7515003B908F /* Fuckus App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,7 +79,7 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		B66FBA8416FE7515003B908F /* secondapp */ = {
+		B66FBA8416FE7515003B908F /* FuckusApp */ = {
 			isa = PBXGroup;
 			children = (
 				B66FBA9016FE7515003B908F /* AppDelegate.h */,
@@ -87,16 +87,17 @@
 				B66FBA9316FE7515003B908F /* MainMenu.xib */,
 				B66FBA8516FE7515003B908F /* Supporting Files */,
 			);
+			name = FuckusApp;
 			path = secondapp;
 			sourceTree = "<group>";
 		};
 		B66FBA8516FE7515003B908F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B66FBA8616FE7515003B908F /* secondapp-Info.plist */,
+				B66FBA8616FE7515003B908F /* Fuckus App-Info.plist */,
 				B66FBA8716FE7515003B908F /* InfoPlist.strings */,
 				B66FBA8A16FE7515003B908F /* main.m */,
-				B66FBA8C16FE7515003B908F /* secondapp-Prefix.pch */,
+				B66FBA8C16FE7515003B908F /* Fuckus App-Prefix.pch */,
 				B66FBA8D16FE7515003B908F /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -105,9 +106,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B66FBA7A16FE7515003B908F /* secondapp */ = {
+		B66FBA7A16FE7515003B908F /* Fuckus App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B66FBA9816FE7515003B908F /* Build configuration list for PBXNativeTarget "secondapp" */;
+			buildConfigurationList = B66FBA9816FE7515003B908F /* Build configuration list for PBXNativeTarget "Fuckus App" */;
 			buildPhases = (
 				B66FBA7716FE7515003B908F /* Sources */,
 				B66FBA7816FE7515003B908F /* Frameworks */,
@@ -117,9 +118,9 @@
 			);
 			dependencies = (
 			);
-			name = secondapp;
+			name = "Fuckus App";
 			productName = secondapp;
-			productReference = B66FBA7B16FE7515003B908F /* secondapp.app */;
+			productReference = B66FBA7B16FE7515003B908F /* Fuckus App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -131,7 +132,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = Zachary;
 			};
-			buildConfigurationList = B66FBA7616FE7515003B908F /* Build configuration list for PBXProject "secondapp" */;
+			buildConfigurationList = B66FBA7616FE7515003B908F /* Build configuration list for PBXProject "Fuckus App" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -143,7 +144,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B66FBA7A16FE7515003B908F /* secondapp */,
+				B66FBA7A16FE7515003B908F /* Fuckus App */,
 			);
 		};
 /* End PBXProject section */
@@ -265,9 +266,9 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "secondapp/secondapp-Prefix.pch";
-				INFOPLIST_FILE = "secondapp/secondapp-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "secondapp/Fuckus App-Prefix.pch";
+				INFOPLIST_FILE = "secondapp/Fuckus App-Info.plist";
+				PRODUCT_NAME = "Fuckus App";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -277,9 +278,9 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "secondapp/secondapp-Prefix.pch";
-				INFOPLIST_FILE = "secondapp/secondapp-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "secondapp/Fuckus App-Prefix.pch";
+				INFOPLIST_FILE = "secondapp/Fuckus App-Info.plist";
+				PRODUCT_NAME = "Fuckus App";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -287,7 +288,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B66FBA7616FE7515003B908F /* Build configuration list for PBXProject "secondapp" */ = {
+		B66FBA7616FE7515003B908F /* Build configuration list for PBXProject "Fuckus App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B66FBA9616FE7515003B908F /* Debug */,
@@ -296,13 +297,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B66FBA9816FE7515003B908F /* Build configuration list for PBXNativeTarget "secondapp" */ = {
+		B66FBA9816FE7515003B908F /* Build configuration list for PBXNativeTarget "Fuckus App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B66FBA9916FE7515003B908F /* Debug */,
 				B66FBA9A16FE7515003B908F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

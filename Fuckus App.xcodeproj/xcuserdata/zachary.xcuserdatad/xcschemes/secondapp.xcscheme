@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B66FBA7A16FE7515003B908F"
                BuildableName = "secondapp.app"
-               BlueprintName = "secondapp"
-               ReferencedContainer = "container:secondapp.xcodeproj">
+               BlueprintName = "Fuckus App"
+               ReferencedContainer = "container:Fuckus App.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B66FBA7A16FE7515003B908F"
             BuildableName = "secondapp.app"
-            BlueprintName = "secondapp"
-            ReferencedContainer = "container:secondapp.xcodeproj">
+            BlueprintName = "Fuckus App"
+            ReferencedContainer = "container:Fuckus App.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -53,8 +53,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B66FBA7A16FE7515003B908F"
             BuildableName = "secondapp.app"
-            BlueprintName = "secondapp"
-            ReferencedContainer = "container:secondapp.xcodeproj">
+            BlueprintName = "Fuckus App"
+            ReferencedContainer = "container:Fuckus App.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -71,8 +71,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B66FBA7A16FE7515003B908F"
             BuildableName = "secondapp.app"
-            BlueprintName = "secondapp"
-            ReferencedContainer = "container:secondapp.xcodeproj">
+            BlueprintName = "Fuckus App"
+            ReferencedContainer = "container:Fuckus App.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
